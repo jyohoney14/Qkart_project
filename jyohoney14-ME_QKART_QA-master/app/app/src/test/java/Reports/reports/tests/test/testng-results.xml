@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T14:57:32 IST" name="Test case suite e-commerce application" finished-at="2023-05-12T15:03:49 IST" duration-ms="377263">
+    <groups>
+      <group name="Regression_test">
+        <method signature="QKART_Tests.TestCase10()[pri:9, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase10" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase09()[pri:10, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase09" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase04" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase06" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase07(java.lang.String,java.lang.String)[pri:7, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase07" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase11(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase11" class="QKART_TESTNG.QKART_Tests"/>
+      </group> <!-- Regression_test -->
+      <group name="Sanity_test">
+        <method signature="QKART_Tests.TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase01" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase02" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase03" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase05" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase08(java.lang.String,java.lang.String)[pri:8, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase08" class="QKART_TESTNG.QKART_Tests"/>
+        <method signature="QKART_Tests.TestCase12(java.lang.String,java.lang.String)[pri:12, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" name="TestCase12" class="QKART_TESTNG.QKART_Tests"/>
+      </group> <!-- Sanity_test -->
+    </groups>
+    <test started-at="2023-05-12T14:57:32 IST" name="Test case execution on Chrome browser" finished-at="2023-05-12T15:03:49 IST" duration-ms="377263">
+      <class name="QKART_TESTNG.QKART_Tests">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:57:29 IST" name="createDriver" finished-at="2023-05-12T14:57:32 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="TestCase01(java.lang.String,java.lang.String)[pri:1, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:57:32 IST" name="TestCase01" description="verify registration happens correctly" finished-at="2023-05-12T14:57:41 IST" duration-ms="8767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+        <test-method signature="TestCase02(java.lang.String,java.lang.String)[pri:2, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:57:42 IST" name="TestCase02" description="verify re-registering an already existed user fails" finished-at="2023-05-12T14:58:17 IST" duration-ms="34950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02 -->
+        <test-method signature="TestCase03(java.lang.String)[pri:3, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:58:17 IST" name="TestCase03" description="verify the functionality of search box" finished-at="2023-05-12T14:58:53 IST" duration-ms="35615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03 -->
+        <test-method signature="TestCase04(java.lang.String)[pri:4, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:58:53 IST" name="TestCase04" description="verify that existence of size chart for certain items and validate contents of size chart" finished-at="2023-05-12T14:59:09 IST" duration-ms="15740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roadster]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04 -->
+        <test-method signature="TestCase05(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:59:10 IST" name="TestCase05" description="verify that a new user can add multiple products into the cart and checkout" finished-at="2023-05-12T14:59:34 IST" duration-ms="24411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX Smash Badminton Racquet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tan Leatherette Weekender Duffle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Addr line 1 addr Line 2 addr line 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase05 -->
+        <test-method signature="TestCase06(java.lang.String,java.lang.String)[pri:6, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T14:59:35 IST" name="TestCase06" description="verify that the contents of the cart can be edited" finished-at="2023-05-12T15:00:05 IST" duration-ms="29834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xtend Smart Watch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yarine Floor Lamp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase06 -->
+        <test-method signature="TestCase07(java.lang.String,java.lang.String)[pri:7, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:00:06 IST" name="TestCase07" description="verify that the contents made to the cart are saved againest user&#039;s login details" finished-at="2023-05-12T15:00:28 IST" duration-ms="22664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stylecon 9 Seater RHS Sofa Set]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xtend Smart Watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase07 -->
+        <test-method signature="TestCase08(java.lang.String,java.lang.String)[pri:8, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:00:29 IST" name="TestCase08" description="verify that insufficient balance error is thrown when wallet balance is not enough" finished-at="2023-05-12T15:02:57 IST" duration-ms="148767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stylecon 9 Seater RHS Sofa Set ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase08 -->
+        <test-method signature="TestCase10()[pri:9, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:02:58 IST" name="TestCase10" description="verify that the privacy policy and aboutus links are working fine" finished-at="2023-05-12T15:03:06 IST" duration-ms="8670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+        <test-method signature="TestCase09()[pri:10, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:03:07 IST" name="TestCase09" description="verify that a product added to the cart is available when a new tab is added" finished-at="2023-05-12T15:03:22 IST" depends-on-methods="QKART_TESTNG.QKART_Tests.TestCase10" duration-ms="14923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase09 -->
+        <test-method signature="TestCase11(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:03:22 IST" name="TestCase11" description="verify that cotactus dailog box working fine" finished-at="2023-05-12T15:03:25 IST" duration-ms="2714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crio user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[criouser@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing the contact us page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase11 -->
+        <test-method signature="TestCase12(java.lang.String,java.lang.String)[pri:12, instance:QKART_TESTNG.QKART_Tests@51a64bbd]" started-at="2023-05-12T15:03:25 IST" name="TestCase12" description="ensure that the advertisement links in qkart page are clickable" finished-at="2023-05-12T15:03:49 IST" duration-ms="23844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YONEX Smash Badminton Racquet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Addr line 1  addr Line 2  addr line 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase12 -->
+      </class> <!-- QKART_TESTNG.QKART_Tests -->
+    </test> <!-- Test case execution on Chrome browser -->
+  </suite> <!-- Test case suite e-commerce application -->
+</testng-results>

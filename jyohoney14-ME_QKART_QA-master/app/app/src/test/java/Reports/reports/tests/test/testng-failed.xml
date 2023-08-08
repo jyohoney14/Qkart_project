@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test case suite e-commerce application]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="QKART_TESTNG.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test case execution on Chrome browser(failed)" verbose="0">
+    <parameter name="TestCase01_un" value="testUser"/>
+    <parameter name="TestCase07_produ2" value="Xtend Smart Watch"/>
+    <parameter name="TestCase11_QueryContent" value="Testing the contact us page"/>
+    <parameter name="TestCase12_Address" value="Addr line 1  addr Line 2  addr line 3"/>
+    <parameter name="TestCase11_Email" value="criouser@gmail.com"/>
+    <parameter name="TestCase05_addr" value="Addr line 1 addr Line 2 addr line 3"/>
+    <parameter name="TestCase11_userName" value="crio user"/>
+    <parameter name="TestCase05_produ2" value="Tan Leatherette Weekender Duffle"/>
+    <parameter name="TestCase08_prod" value="Stylecon 9 Seater RHS Sofa Set "/>
+    <parameter name="TestCase12_product" value="YONEX Smash Badminton Racquet"/>
+    <parameter name="TestCase06_produ2" value="Yarine Floor Lamp"/>
+    <parameter name="TestCase01_pwd" value="abc@123"/>
+    <parameter name="TestCase06_produ" value="Xtend Smart Watch"/>
+    <parameter name="TestCase07_produ" value="Stylecon 9 Seater RHS Sofa Set"/>
+    <parameter name="TestCase05_produ" value="YONEX Smash Badminton Racquet"/>
+    <parameter name="TestCase08_quant" value="60"/>
+    <parameter name="TestCase03_product name to search for" value="YONEX"/>
+    <classes>
+      <class name="QKART_TESTNG.ListenerClass">
+        <methods>
+          <include name="createDriver"/>
+          <include name="quitDriver"/>
+          <include name="TestCase07" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- QKART_TESTNG.ListenerClass -->
+    </classes>
+  </test> <!-- Test case execution on Chrome browser(failed) -->
+</suite> <!-- Failed suite [Test case suite e-commerce application] -->
